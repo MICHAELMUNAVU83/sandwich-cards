@@ -25,7 +25,7 @@ class TruthsController < ApplicationController
 
     respond_to do |format|
       if @truth.save
-        format.html { redirect_to truth_url(@truth), notice: "Truth was successfully created." }
+        format.html { redirect_to truths_url}
         format.json { render :show, status: :created, location: @truth }
       else
         format.html { render :new, status: :unprocessable_entity }

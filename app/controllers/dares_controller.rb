@@ -25,7 +25,7 @@ class DaresController < ApplicationController
 
     respond_to do |format|
       if @dare.save
-        format.html { redirect_to dare_url(@dare), notice: "Dare was successfully created." }
+        format.html { redirect_to dares_url}
         format.json { render :show, status: :created, location: @dare }
       else
         format.html { render :new, status: :unprocessable_entity }

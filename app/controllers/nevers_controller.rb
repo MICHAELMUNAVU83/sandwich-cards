@@ -25,7 +25,7 @@ class NeversController < ApplicationController
 
     respond_to do |format|
       if @never.save
-        format.html { redirect_to never_url(@never), notice: "Never was successfully created." }
+        format.html { redirect_to nevers_url}
         format.json { render :show, status: :created, location: @never }
       else
         format.html { render :new, status: :unprocessable_entity }
