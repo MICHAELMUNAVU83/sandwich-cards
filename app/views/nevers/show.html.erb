@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @never %>
+
+<div>
+  <%= link_to "Edit this never", edit_never_path(@never) %> |
+  <%= link_to "Back to nevers", nevers_path %>
+
+  <%= button_to "Destroy this never", @never, method: :delete %>
+</div>

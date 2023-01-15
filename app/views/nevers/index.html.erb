@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Nevers</h1>
+
+<div id="nevers">
+  <% @nevers.each do |never| %>
+    <%= render never %>
+    <p>
+      <%= link_to "Show this never", never %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New never", new_never_path %>
