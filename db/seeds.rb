@@ -66,3 +66,42 @@ dares = Dare.create([
 ])
     
 puts "Finished seeding dares"
+
+puts "Started seeding truths"
+
+truths = Truth.create([
+    {body:"What is the  most embarrasing thing your parents have caught you doing"},
+    {body:"What is the biggest mistake you have made in bed"},
+    {body:"Name a friend in the room you would hate to see naked"},
+    {body:"What is the oldest partner you have slept with"},
+    {body:"What 3 adjectives best describe your private parts"},
+    {body:"if you had to make a sex tape who would you choose from the room"},
+    {body:"Have you ever taken viagra"},
+    {body:"Would you marry , kill or fuck the 2 people next to you"},
+    {body:"Who do you think is still a virgin in the group"},
+    {body:"Who do you think has the highest body count in the group"},
+    {body:"Tell us about the last pick up line you used in DMS"},
+    {body:"Who has the hottest mom in the room"},
+    {body:"What is your biggest fear"},
+    {body:"have you tried BDSM before"},
+    {body:"have you been to a strip club before"},
+    {body:"Describe the genre of porn you are into"},
+    {body:"How many people have you slept with"},
+    {body:"Who is your secret crush"},
+    {body:"have you made out with a member currently playing"},
+    {body:"Have you ever cheated on or been cheated on before"},
+    {body:"What are your most interesting fetishes"},
+    {body:"Tell the group about your first time"},
+    {body:"have you slept with different people in the same day"},
+    {body:"if you get a threesome with group members , who would you pick and why"},
+    {body:"Have you been arrested before"},
+    {body:"when was the last time you watched porn"},
+    {body:"What is the most money you have spent on a night out"},
+    {body:"When is the wierdest place you have had sex at"},
+    {body:"Have you ever been stood up or have you stood up someone for a date"},
+
+])
+
+puts "Finished truths"
+
+puts "Started"
