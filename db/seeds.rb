@@ -104,4 +104,38 @@ truths = Truth.create([
 
 puts "Finished truths"
 
-puts "Started"
+puts "Started nevers"
+
+nevers = Never.create([
+    {body:"Faked an orgasm"},
+    {body:"Used a dating app"},
+    {body:"Cheated on someone I was dating"},
+    {body:"Hooked up with someone whose second name I did not know"},
+    {body:"Drunk called an ex to get back together"},
+    {body:"Stalked my ex`s  new  partner on social media "},
+    {body:"Googled my own name"},
+    {body:"Said the wrong name in bed"},
+    {body:"Physically fought with someone over my partner"},
+    {body:"Gone on a date for the free food"},
+    {body:"Tried something crazy I saw in porn"},
+    {body:"Sent nudes to someone I was dating"},
+    {body:"Been in a relationship with someone I met online"},
+    {body:"Fell in love with my sneaky link or FWB"},
+    {body:"Sent a risky text and deleted before the recepient read it"},
+    {body:"Kissed someone of the same gender as me"},
+    {body:"Slept with someone in my class or workplace"},
+    {body:"Been arrested or spent a night in jail "},
+    {body:"Had an open relationship before"},
+    {body:"Flirted with or slept with a teacher"},
+    {body:"Jerked off to porn"},
+    {body:"Had period sex before"},
+    {body:"Fell asleep during sex"},
+    {body:"Been paid for sex"},
+    {body:"Lied about my age just to hit"},
+    {body:"Slept with someone on the first date"},
+    {body:"Had  a threesome before"}
+
+
+])
+
+puts "Finished nevers"
